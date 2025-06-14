@@ -1,7 +1,16 @@
+import React from 'react'
+import "./App.css";
+import Navigation from './Components/Navigation';
+import Hero from './Hero';
+
+
+
 
 const App = () => {
-  return (
-    <div>App</div>
+  return ( <div>
+    <Navigation/>
+    <Hero/>
+    </div>
   )
 }
 
