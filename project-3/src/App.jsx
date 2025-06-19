@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const App = () => {
 
-  const [isGame, setIsGame] = useState(true);
+  const [isGame, setIsGame] = useState(false);
   const toggleGame = () => {
     setIsGame((pre) => !pre);
   }
